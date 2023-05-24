@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{224fbe57-b17c-450c-996a-8d14221cba9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tests">
+      <UniqueIdentifier>{2338fc99-a920-4433-9c43-663a43b53b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{08ebd1e5-94b6-4689-aa65-6e59bfc1f5ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics\Forces">
+      <UniqueIdentifier>{c97f7e20-7895-485f-a9d5-5f787d55eeb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics\Joints">
+      <UniqueIdentifier>{51fa76b9-6197-47a1-9eaf-b5cce8bfb889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics\Bodies">
+      <UniqueIdentifier>{4144a487-f2a0-49dc-8d17-53d40ed5500d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\ForceTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\JointTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\ParticleTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\Test.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Joints\Joint.cpp">
+      <Filter>Source Files\Physics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Forces\AreaForce.cpp">
+      <Filter>Source Files\Physics\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Forces\DragForce.cpp">
+      <Filter>Source Files\Physics\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Forces\ForceGenerator.cpp">
+      <Filter>Source Files\Physics\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Forces\GravitationalForce.cpp">
+      <Filter>Source Files\Physics\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Forces\GravitationalGenerator.cpp">
+      <Filter>Source Files\Physics\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Forces\PointForce.cpp">
+      <Filter>Source Files\Physics\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Bodies\Body.cpp">
+      <Filter>Source Files\Physics\Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Bodies\CircleShape.cpp">
+      <Filter>Source Files\Physics\Bodies</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Primitives.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Time.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\World.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Test\ForceTest.h">
+      <Filter>Source Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\JointTest.h">
+      <Filter>Source Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\ParticleTest.h">
+      <Filter>Source Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\Test.h">
+      <Filter>Source Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Joints\Joint.h">
+      <Filter>Source Files\Physics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Forces\AreaForce.h">
+      <Filter>Source Files\Physics\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Forces\DragForce.h">
+      <Filter>Source Files\Physics\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Forces\ForceGenerator.h">
+      <Filter>Source Files\Physics\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Forces\GravitationalForce.h">
+      <Filter>Source Files\Physics\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Forces\GravitationalGenerator.h">
+      <Filter>Source Files\Physics\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Forces\PointForce.h">
+      <Filter>Source Files\Physics\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Bodies\Body.h">
+      <Filter>Source Files\Physics\Bodies</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Bodies\CircleShape.h">
+      <Filter>Source Files\Physics\Bodies</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Bodies\Shape.h">
+      <Filter>Source Files\Physics\Bodies</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics.h">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input.h">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Integrator.h">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Primitives.h">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Random.h">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Time.h">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\World.h">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
