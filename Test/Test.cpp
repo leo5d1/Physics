@@ -9,10 +9,10 @@ Test::Test()
 
 Test::~Test()
 {
+	if (m_world) delete m_world;
 	if (m_time) delete m_time;
 	if (m_input) delete m_input;
 	if (m_graphics) delete m_graphics;
-	if (m_world) delete m_world;
 }
 
 void Test::Initialize()
